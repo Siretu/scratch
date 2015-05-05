@@ -1,0 +1,6 @@
+>id1 Allman beskrivning
+ACTCGTACGTACGT
+>id2 En annan beskrivning
+ACTCGTACGTACGT
+>id3
+ACTGTACCGTCAGT
