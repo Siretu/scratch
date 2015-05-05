@@ -1,3 +1,5 @@
+# Solution to kattis problem id: lektira. Probably not complete.
+
 import sys
 
 for line in sys.stdin:

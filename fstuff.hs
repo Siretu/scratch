@@ -1,3 +1,5 @@
+-- Some random old Haskell I/O test
+
 import System.Environment (getArgs)
 import System.IO
 main = do { args <- getArgs;

@@ -1,3 +1,6 @@
+# Intended as a way to scrape subtitle files for occurences of words to be able
+# to extract individual words from movies.
+
 from datetime import datetime
 import time
 
@@ -27,6 +30,7 @@ def handle_subtitle(s):
     time = parse_interval(lines[0].strip())
 
     # Join the rows, make all punctuation into space and then split into words and make all the words lowercase
+    # I was too lazy to use regex.
     words = [x.lower() for x in " ".join(lines[1:]).replace(","," ").replace("."," ").replace("?"," ").replace("!"," ").split(" ")]
     print "Got subtitle:\n----------\n " + s + "\n------------"
     step = (time[1] - time[0]) / len(words)

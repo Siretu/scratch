@@ -1,3 +1,6 @@
+# Python grade average calculator. Takes input on the form "5a+19c+6d" where the
+# points is the course points.
+
 
 def grade_to_int(s):
     if s.lower() == "a":

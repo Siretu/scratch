@@ -1,3 +1,5 @@
+# Radix-y sort(?) to sort string and lists of chars in linearish time.
+
 def alphsort(l):
     d = {}
     for i in range(97,123):

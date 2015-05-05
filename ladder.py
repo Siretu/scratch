@@ -1,3 +1,5 @@
+# Solution for Kattis problem id: ladder.
+
 import sys, math
 
 for line in sys.stdin:

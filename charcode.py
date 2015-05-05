@@ -1,3 +1,6 @@
+# Just a quick python script to convert a string to ascii values to easily 
+# insert into javascript applications for injections.
+
 import sys
 
 foo = " ".join(sys.argv[1:])

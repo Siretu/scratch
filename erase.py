@@ -1,3 +1,6 @@
+# A "secure" deletion algorithm is defined that inverts the bits in one string n
+# times. Check if one string is the first string, inverted n times.
+
 import sys
 
 def inverse(i):
