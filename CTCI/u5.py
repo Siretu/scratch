@@ -52,7 +52,7 @@ def onebits(i):
     print_binary(binary)
 
 
-# 5.4 Determine the number of bits required to convert integer a to integer b
+# 5.5 Determine the number of bits required to convert integer a to integer b
 def convert(a, b):
     difference = bin(a ^ b)[2:] # Make sure to remove '0b' prefix
     return sum([int(x) for x in difference])
