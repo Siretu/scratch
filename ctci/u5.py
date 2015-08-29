@@ -57,3 +57,11 @@ def convert(a, b):
     difference = bin(a ^ b)[2:] # Make sure to remove '0b' prefix
     return sum([int(x) for x in difference])
 
+# 5.6 Swap odd and even bits
+def bit_swap(i):
+    odd_mask = int("10101010",2)
+    even_mask = int("01010101",2)
+    odd = (i & odd_mask) >> 1
+    even = (i & even_mask) << 1
+    return odd | even
+    
